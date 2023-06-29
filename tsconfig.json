@@ -1,0 +1,32 @@
+
+{
+    // "include": [
+    //   "src/app/services/**/*",
+    //   "src/shared/**/*"
+    // ],
+    // "exclude": [
+    //   "node_modules/*",
+    //   "public/*"
+    // ],
+    "ts-node": {
+      "files": true
+    },
+    "display": "MEAN",
+    "_version": "1.0.0",
+    "compilerOptions": {
+        "baseUrl": "./src",
+      "moduleResolution": "node",
+      "importsNotUsedAsValues": "error",
+      "sourceMap": true,
+      "isolatedModules": false,
+      "target": "ESNEXT",
+      "module": "es6",
+      "outDir": "dist",
+      "rootDir": "src",
+      "strict": true,
+      "noUncheckedIndexedAccess": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    }
+  }

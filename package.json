@@ -1,0 +1,23 @@
+{
+  "name": "ts-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "concurrently npm:dev-server:*",
+    "dev-server:compile": "tsc -w",
+    "dev-server:run": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/rx": "^4.1.2",
+    "concurrently": "^6.2.1",
+    "i": "^0.3.6",
+    "npm": "^7.21.1",
+    "rxjs": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
